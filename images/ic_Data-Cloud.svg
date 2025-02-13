@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>2AA13010-4331-407D-AE58-F1BB6C207B2A</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="40" height="40" rx="1.33333333"></rect>
+        <filter x="-28.8%" y="-28.8%" width="177.5%" height="177.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.797687428   0 0 0 0 0.832473417   0 0 0 0 0.8846524  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Site-Map" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Products-dropdown" transform="translate(-657.000000, -350.000000)">
+            <g id="Products-Dropdown" transform="translate(622.000000, 59.000000)">
+                <g id="3" transform="translate(40.000000, 285.000000)">
+                    <g id="ic_Data-Cloud" transform="translate(0.000000, 11.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Rectangle">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

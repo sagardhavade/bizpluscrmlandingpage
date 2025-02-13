@@ -1,0 +1,2450 @@
+.delhi-banner {
+    background-image: url("./../images/keyword-based/humayun-tomb.png");
+    background-color: #d25686;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.keywrd-based-banner-props {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.delhi-banner .city-name {
+    font-size: 168px;
+    line-height: 252px;
+}
+
+.city-name {
+    font-family: "PoppinsExtraBold", Sans-Serif;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.products-btn-ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.products-btn-ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.products-btn-ul li:first-child {
+    margin-right: 30px;
+}
+
+.common-btn-class {
+    border-radius: 32px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    transition: all 0.3s;
+    text-align: center;
+    display: inline-block;
+    width: 190px;
+}
+
+.primary-color-btn49px {
+    background-color: #d83f87;
+    color: #fff;
+    font-size: 14px;
+    height: 49px;
+    line-height: 49px;
+}
+
+.transparent-primary-color-btn49px {
+    background-color: initial;
+    color: #d83f87;
+    border: 1px solid #d83f87;
+    font-size: 14px;
+    height: 48px;
+    line-height: 48px;
+}
+
+.transparent-white-color-btn49px {
+    background-color: initial;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 14px;
+    height: 48px;
+    line-height: 48px;
+}
+
+.primary-color-btn49px:hover {
+    background-color: #b62f6e;
+    color: #fff;
+}
+
+.transparent-primary-color-btn49px:hover {
+    background-color: #d83f87;
+    color: #fff;
+}
+
+.transparent-white-color-btn49px:hover {
+    background-color: #d83f87;
+    color: #fff;
+    border-color: #d83f87;
+}
+
+.transparent-white-color-btn49px:focus {
+    color: #fff;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.black-btn49px {
+    color: #fff;
+    border: 1px solid #1d1e1f;
+    font-size: 14px;
+    height: 48px;
+    line-height: 48px;
+    background-color: #1d1e1f;
+}
+
+.black-btn49px:hover {
+    color: #fff;
+    background-color: #3b3f43;
+}
+
+.customer-logos-section {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 20px;
+}
+
+.sqr-btn .black-btn49px {
+    border-radius: 4px;
+}
+
+.customer-logos-section div {
+    line-height: 60px;
+    height: 64px;
+    border-radius: 6px;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.customer-logos-section div img {
+    display: inline;
+}
+
+.right-left-grids {
+    place-items: center;
+    gap: 40px;
+}
+
+.grids-auto-fits {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.row-2 {
+    margin-top: 80px;
+}
+
+.delhi-bck-cta-section {
+    background-image: url("./../images/keyword-based/india-gate-mornings.png");
+    background-color: #d25686;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.two-block-grids {
+    place-items: center;
+    gap: 40px;
+}
+
+.two-block-grids div {
+    border: 1px solid #707070;
+    border-radius: 32px;
+    text-align: center;
+    padding: 40px;
+}
+
+.two-block-grids div img {
+    display: inline;
+    margin-bottom: 20px;
+}
+
+.three-block-grids {
+    gap: 40px;
+}
+
+.find-out-more {
+    position: relative;
+}
+
+.find-out-more:hover {
+    color: #d83f87;
+}
+
+.find-out-more::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    height: 13px;
+    width: 100%;
+    background-color: #d83f87;
+    z-index: -1;
+}
+
+.color-bck-cta-sec {
+    background-color: #fff5f2;
+}
+
+.newTestimonial-wrapper ._silk-slide {
+    position: relative;
+}
+
+.slide-right-round-box {
+    background-color: #ddd5ff;
+    padding: 30px;
+    border-radius: 40px 999em 999em 40px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.slide-right-round-box .slide-grids {
+    display: grid;
+    place-items: center;
+    gap: 20px;
+    grid-template-columns: 500px 1fr;
+    position: relative;
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.slick-dots li button {
+    border-radius: 50%;
+    background-color: #74788d;
+    color: #eb9fc3;
+    border: 0;
+    height: 12px;
+    width: 12px;
+    font-size: 0;
+}
+
+.newTestimonial-wrapper .slick-dots li.slick-active button {
+    background-color: #755ae7;
+}
+
+.newTestimonial-wrapper .slick-dots {
+    margin-top: 40px;
+    margin-bottom: 0;
+    padding-left: 0;
+    display: block;
+    text-align: center;
+    list-style-type: none;
+}
+
+
+/* jaipur page css starts */
+
+.jaipur-banner {
+    background-image: url("../images/jaipur_banner.webp");
+    background-color: #552744;
+}
+
+.jaipur-banner .city-name {
+    font-size: 101px;
+    line-height: 151px;
+}
+
+.padd14084px {
+    padding: 140px 84px;
+}
+
+.keywrd-based-banner-props .products-btn-ul {
+    margin-top: 50px;
+}
+
+.bck-color-wrapperf1f2f2 {
+    background-color: #f1f2f2;
+}
+
+.feature-boxes-wrapper {
+    background-color: #eaf2fb;
+}
+
+.feature-boxes-grids {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 50px;
+}
+
+.feature-boxes-grids div {
+    background-color: #fff;
+    padding: 30px 20px 30px 50px;
+    position: relative;
+}
+
+.feature-boxes-grids div::before {
+    position: absolute;
+    content: "";
+    height: 100px;
+    width: 20px;
+    top: 0;
+    left: 0;
+}
+
+.feature-boxes-grids div:nth-child(1)::before {
+    background-color: #5d368a;
+}
+
+.feature-boxes-grids div:nth-child(2)::before {
+    background-color: #eb78ae;
+}
+
+.feature-boxes-grids div:nth-child(3)::before {
+    background-color: #cfb53b;
+}
+
+.feature-boxes-grids div:nth-child(4)::before {
+    background-color: #008080;
+}
+
+.feature-boxes-grids div:nth-child(5)::before {
+    background-color: #ffae42;
+}
+
+
+/* Kolkata landing page css */
+
+.kolkata-banner {
+    background-image: url("../images/kolkata-banner.webp");
+    background-color: #552744;
+}
+
+.cityname101px {
+    font-size: 101px;
+    line-height: 151px;
+    font-family: "PoppinsExtraBold", Sans-Serif;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.green-tick-grids {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.green-tick-grids div p {
+    padding-left: 50px;
+    position: relative;
+}
+
+.green-tick-grids div p:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.green-tick-grids div p:last-child {
+    margin-bottom: 0px;
+}
+
+.green-tick-grids div p::before {
+    position: absolute;
+    content: "";
+    background-image: url("../images/checkmark%20circle.png");
+    height: 32px;
+    width: 32px;
+    left: 0;
+}
+
+.choosing-grids {
+    gap: 50px;
+}
+
+.choosing-grids div {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.choosing-grids div .image-box {
+    min-height: 180px;
+}
+
+.choosing-grids div .image-box img {
+    display: inline-block;
+}
+
+.best-feat-kol-grids {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    align-items: center;
+    max-width: 950px;
+    margin: auto;
+    gap: 30px;
+    border: 1px solid #707070;
+}
+
+.best-feat-kol-grids div:nth-child(2) {
+    padding-right: 30px;
+}
+
+.best-feat-kol-wrapper .best-feat-kol-grids:nth-child(3),
+.best-feat-kol-wrapper .best-feat-kol-grids:nth-child(4) {
+    margin-top: 40px;
+}
+
+
+/* indore page css */
+
+.indore-banner {
+    background-image: url("../images/indore_bg.webp");
+    background-color: #8f64b5;
+}
+
+.colored-box-grids {
+    place-items: center;
+    text-align: center;
+    gap: 50px;
+    margin-top: 100px !important;
+}
+
+.box-color {
+    width: 430px;
+    border-radius: 32px;
+    padding: 20px;
+    min-height: 460px;
+    position: relative;
+    cursor: pointer;
+}
+
+.box-color::before {
+    position: absolute;
+    content: "";
+    height: 400px;
+    width: 400px;
+    z-index: -1;
+    left: -30px;
+    border-radius: 32px;
+    top: -30px;
+    transition: all 0.6s;
+}
+
+.box-color:hover.box-color::before {
+    left: 0;
+    top: 0;
+}
+
+.box1 {
+    background-color: #fad6eb;
+}
+
+.box1::before {
+    background-color: #db6bac;
+}
+
+.box2 {
+    background-color: #aceeff;
+}
+
+.box2::before {
+    background-color: #51dbff;
+}
+
+.box3 {
+    background-color: #f7e7fb;
+}
+
+.box3::before {
+    background-color: #a478b8;
+}
+
+.box4 {
+    background-color: #ffedaf;
+}
+
+.box4::before {
+    background-color: #e3b61b;
+}
+
+.box5 {
+    background-color: #fdebeb;
+}
+
+.box5::before {
+    background-color: #deb7b8;
+}
+
+.box6 {
+    background-color: #cbedee;
+}
+
+.box6::before {
+    background-color: #00aeb9;
+}
+
+.box-color:not(:last-child) {
+    margin-bottom: 80px;
+}
+
+.indore-bck-cta-section {
+    background-image: url("../images/indore_bg_cta.webp");
+    background-color: #5a3b9c;
+}
+
+.square-box-grids {
+    gap: 30px;
+}
+
+.white-square-boxes {
+    background-color: #fff;
+    box-shadow: 0px 10px 49px #00000029;
+    padding: 40px;
+    border-radius: 16px;
+    position: relative;
+    cursor: pointer;
+}
+
+.white-square-boxes::before {
+    position: absolute;
+    content: "";
+    background-color: #ffe0cf;
+    border: 1px solid #e14545;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 16px;
+    opacity: 0;
+    transition: all 0.6s;
+}
+
+.white-square-boxes:hover.white-square-boxes::before {
+    opacity: 1;
+}
+
+.white-square-boxes p {
+    padding-left: 60px;
+    position: relative;
+}
+
+.white-square-boxes:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.white-square-boxes p::before {
+    position: absolute;
+    content: "";
+    background-image: url("../images/pushbullet.png");
+    height: 22px;
+    width: 30px;
+    left: 0;
+    top: 6px;
+    background-repeat: no-repeat;
+    transition: all 0.6s;
+}
+
+
+/* noida page css starts */
+
+.noida-banner {
+    background-image: url("../images/noida_banner.webp");
+    background-color: #8085a6;
+}
+
+.noida-banner .transparent-white-color-btn49px,
+.surat-banner .transparent-white-color-btn49px,
+.patna-banner .transparent-white-color-btn49px,
+.nagpur-banner .transparent-white-color-btn49px {
+    background-color: transparent;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(4px);
+}
+
+.glass-effect-btn .transparent-white-color-btn49px {
+    background-color: transparent;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(4px);
+}
+
+.glass-effect-btn .transparent-white-color-btn49px:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: #fff;
+}
+
+.noida-banner .transparent-white-color-btn49px:hover,
+.surat-banner .transparent-white-color-btn49px:hover,
+.patna-banner .transparent-white-color-btn49px:hover,
+.nagpur-banner .transparent-white-color-btn49px:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: #fff;
+}
+
+.glass-effect {
+    background-color: transparent;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 16px;
+    padding: 30px 30px 10px 30px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(2px);
+}
+
+.abt-crm-feature-grids {
+    grid-gap: 50px;
+}
+
+.gredients-boxes {
+    padding: 30px;
+    box-shadow: 0px 20px 30px #00000029;
+    transition: all 0.6s;
+    position: relative;
+    z-index: 1;
+    border-radius: 16px;
+    cursor: pointer;
+    min-height: 365px;
+}
+
+.gredients-boxes:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.gredients-boxes::before {
+    position: absolute;
+    content: "";
+    background: linear-gradient(93deg, #485296 0%, #8f3481 100%);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.6s;
+    z-index: -1;
+    border-radius: 12px;
+    border: 1px solid #485296;
+}
+
+.bottom-gredient {
+    background: linear-gradient(93deg, #485296 0%, #8f3481 100%);
+    height: 10px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.gredients-boxes:hover.gredients-boxes::before {
+    opacity: 1;
+}
+
+.gredients-boxes:hover.gredients-boxes .text-color-131415 {
+    color: #fff;
+}
+
+.gredients-boxes:hover.gredients-boxes .svg-icon {
+    fill: #fff !important;
+}
+
+.green-tick-without-grids p:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.green-tick-without-grids p small {
+    width: 45px;
+    vertical-align: top;
+}
+
+.green-tick-without-grids p span {
+    width: calc(100% - 50px);
+}
+
+.noida-bck-cta-section {
+    background-image: url("../images/noida-bck-cta.webp");
+    background-color: #70a080;
+}
+
+.noida-main-wrapper .square-box-grids {
+    max-width: 1050px;
+    margin: auto;
+}
+
+
+/* surat lp css starts from here */
+
+.surat-banner {
+    background-image: url("../images/surat_banner.webp");
+    background-color: #5e74a4;
+}
+
+.surat-bck-cta-section {
+    background-image: url("../images/surat-bck-cta.webp");
+    background-color: #7ca297;
+}
+
+.surat-main-wrapper .gredients-boxes {
+    min-height: 385px;
+}
+
+.surat-main-wrapper .square-box-grids {
+    max-width: 1050px;
+    margin: auto;
+}
+
+.surat-main-wrapper .white-square-boxes {
+    min-height: 185px;
+}
+
+.surat-main-wrapper .box-color {
+    min-height: 520px;
+}
+
+.surat-main-wrapper .box-color::before {
+    height: 460px;
+}
+
+
+/* patna lp css starts from here */
+
+.patna-banner {
+    background-image: url("../images/patna_banner.webp");
+    background-color: #7d6376;
+}
+
+.patna-bck-cta-section {
+    background-image: url("../images/patna-back-cta.webp");
+    background-color: #559a8c;
+}
+
+.patna-main-wrapper .gredients-boxes {
+    min-height: 388px;
+}
+
+
+/* ghaziabad lp css starts from here */
+
+.ghaziabad-banner {
+    background-image: url("../images/ghaziabad-banner.webp");
+    background-color: #8c738e;
+}
+
+.ghaziabad-bck-cta-section {
+    background-image: url("../images/gha-bck-cta.webp");
+    background-color: #559a8c;
+}
+
+.ghaziabad-main-wrapper .gredients-boxes {
+    min-height: 420px;
+}
+
+.ghaziabad-main-wrapper .square-box-grids {
+    max-width: 1050px;
+    margin: auto;
+}
+
+.ghaziabad-main-wrapper .square-box-grids .white-square-boxes {
+    min-height: 200px;
+}
+
+
+/* Nagpur lp css starts from here */
+
+.nagpur-banner {
+    background-image: url("../images/nagpur-banner.webp");
+    background-color: #25342a;
+}
+
+.nagpur-bck-cta-section {
+    background-image: url("../images/nagpur_bck_cta.webp");
+    background-color: #559a8c;
+}
+
+.nagpur-main-wrapper .gredients-boxes {
+    min-height: 265px;
+}
+
+.nagpur-main-wrapper .grids-auto-fits {
+    max-width: 1050px;
+    margin: auto;
+}
+
+.nagpur-main-wrapper .grids-auto-fits .white-square-boxes {
+    min-height: 250px;
+}
+
+
+/* chandigarh lp css starts from here */
+
+.chandigarh-banner {
+    background-image: url("../images/chandigarh_banner.webp");
+    background-color: #275f75;
+}
+
+.chandigarh-bck-cta-section {
+    background-image: url("../images/chandigarh-bck-cta.webp");
+    background-color: #559a8c;
+}
+
+
+/* lucknow lp css starts from here */
+
+.lucknow-banner {
+    background-image: url("../images/lucknow-banner.webp");
+    background-color: #37769b;
+}
+
+.lucknow-bck-cta-section {
+    background-image: url("../images/lck-bck-cta.webp");
+    background-color: #63a0a3;
+}
+
+.lucknow-main-wrapper .box-color {
+    min-height: 490px;
+}
+
+
+/* Agra lp css starts from here */
+
+.agra-banner {
+    background-image: url("../images/agra_banner.webp");
+    background-color: #5b6d72;
+}
+
+.agra-bck-cta-section {
+    background-image: url("../images/agra-bck-cta.webp");
+    background-color: #5eaca8;
+}
+
+.agra-main-wrapper .gredients-boxes {
+    min-height: 440px;
+}
+
+.agra-main-wrapper .white-square-boxes {
+    min-height: 220px;
+}
+
+
+/* coimbatore lp css starts from here */
+
+.coimbatore-banner {
+    background-image: url("../images/coimbatore-banner.webp");
+    background-color: #5b6d72;
+}
+
+.coimbatore-bck-cta-section {
+    background-image: url("../images/love-coimbatore.webp");
+    background-color: #56997e;
+}
+
+
+/* kanpur lp css starts from here */
+
+.kanpur-banner {
+    background-image: url("../images/kanpur.webp");
+    background-color: #5b6d72;
+    position: relative;
+    z-index: 1;
+}
+
+.kanpur-banner::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    z-index: -1;
+    background: linear-gradient(to right, #99f2c8, #1f4037);
+}
+
+.kanpur-main-wrapper .white-square-boxes {
+    min-height: 220px;
+}
+
+.kanpur-bck-cta-section {
+    background-image: url("../images/kanpur-bck-cta.webp");
+    background-color: #abcba3;
+    position: relative;
+    z-index: 1;
+}
+
+.kanpur-bck-cta-section::before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    background-color: #728787;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+
+
+/* mysuru lp css starts from here */
+
+.mysuru-banner {
+    background-image: url("../images/mysuru-banner.webp");
+    background-color: #a586b5;
+}
+
+.mysuru-main-wrapper .white-square-boxes {
+    min-height: 185px;
+}
+
+.mysuru-main-wrapper .box-color {
+    min-height: 460px;
+}
+
+.mysuru-bck-cta {
+    background-image: url("../images/mysuru-bck-cta.webp");
+    background-color: #8f60a0;
+}
+
+
+/* kota lp css starts from here */
+
+.kota-banner {
+    background-image: url("../images/kota-banner.webp");
+    background-color: #947282;
+}
+
+.kota-main-wrapper .box-color {
+    min-height: 560px;
+}
+
+.kota-bck-cta {
+    background-image: url("../images/kota-bck-cta.webp");
+    background-color: #947282;
+}
+
+
+/* howrah lp css starts from here */
+
+.howrah-main-wrapper .box-color {
+    min-height: 530px;
+}
+
+.howrah-main-wrapper .white-square-boxes {
+    min-height: 185px;
+}
+
+.howrah-banner {
+    background-image: url("../images/howrah-banner.webp");
+    background-color: #252d65;
+}
+
+.howrah-bck-cta {
+    background-image: url("../images/howrah-bck-cta.webp");
+    background-color: #947282;
+}
+
+
+/* ludhiana lp css starts from here */
+
+.ludhiana-banner {
+    background-image: url("./../images/keyword-based/ludhiana_banner.webp");
+    background-color: #947282;
+}
+
+.ludhiana-bck-cta {
+    background-image: url("./../images/keyword-based/ludhiaana_bck_cta.webp");
+    background-color: #947282;
+}
+
+.ludhiana-main-wrapper .white-square-boxes {
+    min-height: 185px;
+}
+
+
+/* bhubaneswar ls css starts from here */
+
+.bhubaneswar-banner {
+    background-image: url("./../images/keyword-based/bhubneswar_banner.webp");
+    background-color: #947282;
+}
+
+.bhubaneswar-bck-cta {
+    background-image: url("./../images/keyword-based/bhubneswar_bck_cta.webp");
+    background-color: #947282;
+}
+
+.bhubaneswar-main-wrapper .white-square-boxes {
+    min-height: 220px;
+}
+
+
+/* what-is-crm-wrapper */
+
+.what-is-crm-banner {
+    background-image: url("../images/whatiscrm-banner.webp");
+    background-color: #e4d8fa;
+    position: relative;
+}
+
+.whatiscrm-btn-sec {
+    margin-top: 40px;
+}
+
+.square_btn_class .common-btn-class {
+    border-radius: 4px;
+    box-shadow: 0px 10px 20px #00000029;
+    font-weight: 600;
+    font-size: 26px;
+    width: 288px;
+    height: 73px;
+    line-height: 73px;
+}
+
+.primary-color-line {
+    height: 18px;
+    width: 100%;
+    background-color: #D83F87;
+}
+
+.whatiscrm-scrum-three-grids {
+    text-align: center;
+}
+
+.benf-div .fs-29 {
+    font-weight: 600;
+}
+
+.whatiscrm-scrum-three-grids .benf-div:first-child,
+.whatiscrm-scrum-three-grids .benf-div:nth-child(2) {
+    border-right: 1px solid #8d8d8d;
+}
+
+.whatiscrm-scrum-four-grids {
+    text-align: center;
+    max-width: 1100px;
+    margin: auto;
+    gap: 90px;
+}
+
+.feat-div-sc4 {
+    text-align: left;
+}
+
+.feat-div-sc4 .fs-18 {
+    margin-right: 15px;
+}
+
+.what-is-crm-wrapper .email-marketin-last .box-scroll {
+    height: 200px;
+}
+
+.whatiscrm-scrum-four-grids-two {
+    max-width: 750px;
+}
+
+.what-is-crm-wrapper .email-marketin-last .box-scroll::-webkit-scrollbar {
+    width: 3px;
+}
+
+.what-is-crm-wrapper .email-marketin-last .box-scroll::-webkit-scrollbar-thumb {
+    background: #d83f87;
+}
+
+.tabs-grid {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 60px;
+}
+
+.tabs-grid .green-tick-grids {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.tabs-grid .green-tick-grids div p::before {
+    background-image: url("../images/check.png");
+    background-repeat: no-repeat;
+}
+
+.whatiscrm-tabs .ui-tabs .ui-tabs-panel {
+    padding: unset !important;
+}
+
+.whatiscrm-tabs .ui-widget.ui-widget-content {
+    border: unset !important;
+}
+
+.whatiscrm-tabs .ui-tabs .ui-tabs-nav {
+    padding: 0 !important;
+    background: transparent;
+    border: none;
+}
+
+.whatiscrm-tabs .ui-tabs-anchor {
+    width: 400px;
+    height: 87px;
+}
+
+.whatiscrm-tabs .ui-tabs .ui-tabs-nav li:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.whatiscrm-tabs .ui-state-active a,
+.whatiscrm-tabs .ui-state-active a:link,
+.whatiscrm-tabs .ui-state-active a:visited {
+    color: #fff !important;
+}
+
+.whatiscrm-tabs .ui-state-active a:link {
+    position: relative;
+}
+
+.whatiscrm-tabs .ui-state-active a:link::before {
+    content: "";
+    position: absolute;
+    right: 20px;
+    background-repeat: no-repeat;
+    top: 36px;
+    width: 23px;
+    height: 18px;
+    background-image: url('../images/right-icon.svg');
+}
+
+.whatiscrm-tabs .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    padding: 30px;
+}
+
+.whatiscrm-tabs .ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    background: transparent !important;
+    border: 1px solid #F28B64;
+    border-radius: 4px;
+}
+
+.whatiscrm-tabs .ui-widget-content .ui-state-active,
+.whatiscrm-tabs .ui-widget-header .ui-state-active {
+    background-color: #F28B64 !important;
+    box-shadow: 0px 5px 15px #00000029;
+}
+
+.whatiscrm-tabs .ui-state-active,
+.whatiscrm-tabs .ui-widget-content .ui-state-active,
+.whatiscrm-tabs .ui-widget-header .ui-state-active {
+    border: unset !important;
+}
+
+.whatiscrm-tabs .ui-tabs .ui-tabs-nav .ui-tabs-anchor:focus {
+    outline: none;
+}
+
+.all-in-one-grids {
+    gap: 50px;
+}
+
+.all-in-box-cmmn-props {
+    position: relative;
+    border-radius: 12px;
+    padding: 30px;
+    z-index: 1;
+    min-height: 330px;
+}
+
+.a-one {
+    background-color: #ffe8f7;
+    margin-bottom: 50px;
+}
+
+.a-two {
+    background-color: #F1FBFF;
+}
+
+.a-three {
+    background-color: #FFF6F6;
+    margin-bottom: 50px;
+}
+
+.a-four {
+    background-color: #FEFFEE;
+}
+
+.a-one::before,
+.a-two::before,
+.a-three::before,
+.a-four::before {
+    position: absolute;
+    content: '';
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 12px;
+    transition: all 0.6s;
+    background-color: #fff;
+    z-index: -1;
+}
+
+.a-one::before {
+    border: 4px solid #CC178A;
+}
+
+.a-two::before {
+    border: 4px solid #8EBBD1;
+}
+
+.a-three::before {
+    border: 4px solid #D88383;
+}
+
+.a-four::before {
+    border: 4px solid #B1B763;
+}
+
+.a-one:hover.a-one::before,
+.a-two:hover.a-two::before,
+.a-three:hover.a-three::before,
+.a-four:hover.a-four::before {
+    opacity: 1;
+}
+
+.a-one-bottom-color {
+    background: #CC178A;
+}
+
+.a-two-bottom-color {
+    background-color: #8EBBD1;
+}
+
+.a-three-bottom-color {
+    background-color: #D88383;
+}
+
+.a-four-bottom-color {
+    background-color: #B1B763;
+}
+
+.bottom-color-cmmn-props {
+    height: 17px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    content: '';
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.years-grids {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    place-items: center;
+    max-width: 442px;
+}
+
+.years-grids div:last-child {
+    text-align: left;
+    padding: 20px;
+}
+
+.whatiscrm-scrum-seven .green-tick-grids {
+    grid-template-columns: 1fr;
+}
+
+.whatiscrm-scrum-seven .green-tick-grids div p {
+    padding-left: 40px;
+}
+
+.whatiscrm-scrum-seven .green-tick-grids div p::before {
+    background-image: none;
+    height: 11px;
+    width: 11px;
+    background-color: #1d1e1f;
+    border-radius: 50%;
+    top: 12px;
+}
+
+.whatiscrm-scrum-eight {
+    background-color: #BA9CF1;
+}
+
+.whatiscrm-scrum-eight .fs-39 {
+    line-height: 58px;
+}
+
+.whatiscrm-scrum-eight .black-btn49px {
+    height: 74px;
+    width: 297px;
+    font-size: 29px;
+    line-height: 74px;
+    box-shadow: 0px 10px 20px #00000029;
+}
+
+.whatiscrm-scrum-nine .best-feat-kol-grids {
+    padding: 30px;
+    grid-template-columns: 250px 1fr;
+    border-radius: 4px;
+}
+
+.whatiscrm-scrum-nine .best-feat-kol-grids:not(:last-child) {
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.whatiscrm-scrum-nine .best-feat-kol-grids div:nth-child(2) {
+    padding-left: 30px;
+    border-left: 1px solid #cccccc;
+    padding-right: 0;
+}
+
+.whatiscrm-scrum-last {
+    background-color: #F8F8F8;
+    padding-left: 84px;
+    padding-right: 84px;
+}
+
+.bck-ff-blank {
+    background-color: #fff;
+    height: 50px;
+    width: 100%;
+}
+
+.en-badges-grids {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 600px;
+    margin: 40px auto auto;
+}
+
+.en-badges-grids img {
+    transition: all .6s;
+}
+
+.en-badges-grids img:hover {
+    transform: translateY(-6px);
+}
+
+/* lead-management css starts from here */
+
+.lead-management-banner {
+    background-color: #4F3DF8;
+}
+
+.lead-management-banner h1 span,
+.crm-software-india-banner h1 span{
+    font-size: 29px;
+    display: block;
+}
+
+.lead-management-banner .en-badges-grids,
+.crm-software-india-banner .en-badges-grids{
+    grid-template-columns: 100px 100px 100px 100px;
+}
+
+.lead-management-banner .en-badges-grids img ,
+.crm-software-india-banner .en-badges-grids img{
+    width: 100px;
+}
+
+.lm-4th-sec .w-set{
+    width: 898px;
+    margin: auto;
+}
+
+.bck-img-lm{
+    background-image: url('../images/bck-img-lead-procss.png');
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.max-w-500px{
+    max-width: 500px;
+}
+
+.blue-bck-sec{
+    background-color: #4806BB;
+}
+
+.number-grid {
+    display: grid;
+    grid-template-columns: 280px 1fr 1fr 1fr;
+    place-items: center;
+    gap: 20px;
+}
+
+.number-grid div {
+    position: relative;
+}
+
+.num-uls{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.num-uls li{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.min-lead .num-uls li:first-child{
+    width: 139px;
+    font-size: 49px;
+}
+
+.min-lead .num-uls li:nth-child(2){
+    width: calc(100% - 145px);
+    padding-left: 5px;
+    font-family: "PoppinsRegular";
+    font-size: 16px;
+}
+
+.accel-resp .num-uls li:first-child{
+    width: 95px;
+    font-size: 49px;
+}
+
+.accel-resp .num-uls li:nth-child(2){
+    width: calc(100% - 105px);
+    padding-left: 5px;
+    font-family: "PoppinsRegular";
+    font-size: 16px;
+}
+
+.inc-your-eff .num-uls li:first-child{
+    width: 65px;
+    font-size: 49px;
+}
+
+.inc-your-eff .num-uls li:nth-child(2){
+    width: calc(100% - 105px);
+    padding-left: 5px;
+    font-family: "PoppinsRegular";
+    font-size: 16px;
+}
+
+.fuel-your-funnel .num-uls li:first-child{
+    width: 100px;
+    font-size: 49px;
+}
+
+.fuel-your-funnel .num-uls li:nth-child(2){
+    width: calc(100% - 105px);
+    padding-left: 5px;
+    font-family: "PoppinsRegular";
+    font-size: 16px;
+}
+
+.number-grid div:first-child .num-uls:before, .number-grid div:nth-child(2) .num-uls:before, .number-grid div:nth-child(3) .num-uls:before {
+    position: absolute;
+    content: "";
+    height: 80px;
+    width: 2px;
+    background-color: #9c78da;
+    right: 5px;
+    top: 5px;
+}
+
+.lm-sec-last-section{
+    background-color: #F3F4FF;
+    position: relative;
+    z-index: 1;
+}
+
+.lm-sec-last-section::before{
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    height: 490px;
+    width: 100%;
+    bottom: 0;
+    z-index: -1;
+}
+
+.white-60px-strip{
+    background-color: #fff;
+    height: 60px;
+}
+
+.new-form-props-class .landing_page_form .featureHeading {
+    text-align: center !important;
+}
+
+.new-form-props-class .landing_page_form .signUpView{
+    max-width: 342px !important;
+}
+
+.new-form-props-class .landing_page_form .signUpView .crm_Btn{
+    font-family: helvetica;
+    font-weight: bold;
+    height: 44px;
+}
+
+/* sales tracker main wrapper */
+
+.sales-tracker-banner{
+  background-image: url("../images/sales-tracker-banner.webp");  
+}
+
+
+.sales-tracker-main-wrapper .email-marketin-last .box-scroll {
+    height: 340px;
+}
+
+.sales-tracker-main-wrapper .email-marketin-last .box-scroll::-webkit-scrollbar {
+    width: 3px;
+}
+
+.sales-tracker-main-wrapper .email-marketin-last .box-scroll::-webkit-scrollbar-thumb {
+    background: #d83f87;
+}
+
+.sales-tracker-main-wrapper .application-icons img{
+   max-width: 152px;
+}
+
+/* sales-crm css starts */
+.sales-crm-main-wrapper  .sales-crm-banner{
+    background: linear-gradient(0deg,#7c7efb 20%,#dff8fc 90%);
+}
+
+.sales-crm-main-wrapper  .sales-crm-banner .grids-auto-fits{
+    align-items: center;
+}
+
+.sales-crm-main-wrapper .gredients-boxes{
+    min-height: 470px;
+}
+
+.sales-crm-main-wrapper .gredients-boxes .fs-18{
+    height: 300px;
+    overflow: auto;
+    padding-right: 15px;
+}
+
+.sales-crm-main-wrapper .gredients-boxes .fs-18::-webkit-scrollbar{
+    width: 3px;
+}
+
+.sales-crm-main-wrapper .gredients-boxes .fs-18::-webkit-scrollbar-thumb{
+    background-color: #f2f2f2;
+}
+
+.sales-crm-main-wrapper .square-box-wrapper .white-square-boxes h3{
+    z-index: 1;
+    position: inherit;
+}
+.sales-crm-main-wrapper .white-square-boxes p{
+    padding-left: 0;
+}
+
+.sales-crm-main-wrapper .white-square-boxes p::before{
+    display: none;
+}
+
+/* marketing/b2b-data */
+
+.b2b-data-banner {
+    background: #16222A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.b2b-main-wrapper .green-tick-pointers-wrapper .green-tick-grids{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.ui-table-ol{
+    padding-left: 20px;
+}
+
+.case-study-one .grids-auto-fits{
+    grid-template-columns: 60% 40%;
+}
+
+.case-study-two .grids-auto-fits{
+    grid-template-columns: 40% 60%;
+}
+
+.b2b-main-wrapper .whatiscrm-scrum-four{
+    margin-top: 40px;
+}
+
+.el-grids{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 60px;
+}
+
+.el-grids .inner-stroke-box{
+    background: #fff 0 0 no-repeat padding-box;
+    border: 1px solid #707070;
+    padding: 50px 30px 30px;
+    text-align: left;
+    position: relative;
+}
+
+.inner-stroke-box::before{
+    position: absolute;
+    content: "";
+    height: 260px;
+    width: 300px;
+    z-index: -1;
+    right: -15px;
+    bottom: -15px;
+    transition: all 0.6s;
+}
+
+.inner-box-1::before{
+    background-color: #8bff97;
+}
+
+.inner-box-2::before{
+    background-color: #8ba6ff;
+}
+
+.inner-box-3::before{
+    background-color: #b58bff;
+}
+
+.inner-box-4::before{
+    background-color: #ff8b8b;
+}
+
+.inner-box-5::before{
+    background-color: #98f5f2;
+}
+
+.inner-box-6::before{
+    background-color: #ffab8b;
+}
+
+.el-grids .inner-stroke-box:hover.inner-stroke-box::before{
+    right: 0;
+    bottom: 0;
+}
+
+
+/* crm-software-main-wrapper */
+
+.crm-india-main-wrapper .crm-software-india-banner {
+    background: transparent linear-gradient(180deg, #9C27B0 0%, #673AB7 100%) 0% 0% no-repeat padding-box;
+}
+
+.ind-2-sec{
+    background-color: #3D3D3D;
+    position: relative;
+    z-index: 1;
+}
+
+.ind-2-sec::before{
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    height: 90px;
+    width: 100%;
+    bottom: 0;
+    z-index: -1;
+}
+
+.ind-3-sec{
+    background-color: #f2f2f2;
+}
+
+.ind-3-grids{
+    gap: 40px;
+}
+
+.ind-3-grid-boxes{
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0px 0px 10px #00000029;
+    border-radius: 18px;
+    position: relative;
+    z-index: 1;
+}
+
+.ind-3-grid-boxes::before{
+    position: absolute;
+    content: "";
+    border: 1px solid #c74b50;
+    background-color: #FEF9EE;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    border-radius: 18px;
+    opacity: 0;
+    transition: all 0.6s;
+}
+
+.ind-3-grid-boxes:hover.ind-3-grid-boxes::before{
+    opacity: 1;
+}
+
+.ind-3-grid-boxes img{
+    height: 153px;
+}
+
+.ind-4-sec-bck-blue{
+    background-color: #6200EE;
+    border-radius: 22px;
+}
+
+.ind-4-sec-bck-blue .transparent_btn{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    height: 49px;
+    line-height: 49px;
+    border-radius: 16px;
+    font-weight: bold;
+}
+
+.ind-4-sec-bck-blue .transparent_btn:hover{
+    background-color: #fff;
+    color: #6200EE;
+}
+
+
+.white-border-box{
+    background-color: #fff;
+    border: 1px solid #707070;
+    border-radius: 22px;
+    padding: 20px;
+    transition: all 0.6s;
+    position: relative;
+}
+
+.white-border-box:hover{
+    background-color: #fffdfd;
+    border: 1px solid #c74b50;
+}
+
+.ind-5-sec .green-tick-grids{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.ind-5-sec .green-tick-grids div p:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.ind-5-sec {
+    background-color: #FEF9EE;
+}
+
+.icon-grids{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+    place-content: center;
+    place-items: center;
+    gap: 20px;
+}
+
+.gredient-btn{
+    background: transparent linear-gradient(180deg, #FF741F 0%, #D7523E 100%) 0% 0% no-repeat;
+    color: #fff;
+    width: unset;
+    font-size: 14px;
+    height: 49px;
+    line-height: 49px;
+    border-radius: 32px;
+    font-weight: bold;
+}
+
+.gredient-btn:hover{
+    color: #fff;
+   opacity: 0.9;
+}
+
+.multi-box {
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid;
+    transition: all 0.6s;
+}
+
+.multi-box:hover {
+   background-color: #fff8f8;
+}
+
+.multi-box-1{
+   border-color: #49BFDE;
+}
+
+.multi-box-2{
+    border-color: #9F64D9;
+}
+
+.multi-box-3{
+    border-color: #921B1B;
+}
+
+.multi-box-4{
+    border-color: #356318;
+}
+
+.multi-box-5{
+    border-color: #F27396;
+}
+
+.multi-box-6{
+    border-color: #9DC264;
+}
+
+.multi-box-7{
+    border-color: #9DC264;
+}
+
+.multi-box-8{
+    border-color: #1C2DC5;
+}
+
+.multi-box-9{
+    border-color: #C130EB;
+}
+
+.multi-box-10{
+    border-color: #6280F6;
+}
+
+.multi-box-11{
+    border-color: #74D84A;
+}
+
+.multi-box-12{
+    border-color: #AB9A2F;
+
+}
+
+.multi-box-13{
+    border-color: #C93CC0;
+}
+
+.multi-box-14{
+    border-color: #38ACB9;
+}
+
+.multi-box-15{
+    border-color: #6D70D5;
+}
+
+.two-child-icon{
+    max-width: 850px;
+    margin: 20px auto auto auto;
+}
+
+.two-child-icon div{
+    width: 263px;
+}
+
+.cl-icon-div .prs-img{
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    object-fit: fill;
+}
+
+
+/* -----------------------Promotions pages css starts-------------------------------- */
+
+.promotion-banner-bck-props{
+    background-color: #1d1e1f;
+    background-blend-mode: overlay;
+}
+
+.b2-lead-management-software-banner {
+    background-image: url('../images/discover-banner-img.webp');
+}
+
+.b2b-lm-wrapper .choosing-grids .box-shadow23{
+    box-shadow: 1px -1px 23px 0 rgba(0,0,0,.1);
+}
+
+
+.b2b-marketing-automation {
+    background-image: url('../images/b2b-marketing-data.jpg');
+}
+
+.best-crm-software-banner{
+    background-image: url('../images/best-crm-soft-banner.png');
+}
+
+.business-database-banner{
+    background-image: url('../images/business-database-banner.png');
+}
+
+.soft-solutions-banner{
+    background-image: url('../images/soft-solution-banner.webp');
+}
+
+.email-market-soft-banner{
+    background-image: url('../images/email-marketing-soft-banner.jpg');
+}
+
+.email-market-tool-banner{
+    background-image: url('../images/email-marketing-tool-banner.jpg');
+}
+
+.marketing-automation-banner{
+    background-image: url('../images/marketing_automation_system_banner.webp');
+}
+
+.ss-startup-banner{
+    background-image: url('../images/ss-for-startups.webp');
+}
+
+.integration-logos-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 25px;
+}
+
+.integration-logos-section div {
+    box-shadow: 0 4px 6.51px 0.49px rgb(0 0 0 / 15%);
+    border-radius: 6px;
+    background-color: #fff;
+    height: 64px;
+    line-height: 60px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.integration-logos-section div img{
+    display: inline-block;
+}
+
+.many-more-integration {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.many-more-integration a {
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: "PoppinsRegular";
+    color: #D83F87;
+    font-size: 14px;
+}
+
+.many-more-integration a:hover {
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 1250px) {
+    .all-in-one-grids {
+        grid-template-columns: 1fr;
+    }
+    .all-in-box-cmmn-props {
+        max-width: 600px;
+        margin: auto;
+        min-height: unset;
+    }
+    .a-two,
+    .a-four {
+        margin-top: 50px;
+    }
+    .whatiscrm-scrum-four {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .whatiscrm-scrum-four-grids {
+        gap: 30px;
+    }
+
+    .inner-stroke-box::before {
+        height: 10px;
+        width: 100%;
+        z-index: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .ind-2-sec::before{
+        display: none;
+    }
+
+    .multi-box{
+        padding: 15px;
+        width: 100%;
+    }
+
+    .two-child-icon{
+        max-width: 100%;
+    }
+
+    .two-child-icon div{
+        width: 100%;
+    }
+
+    .two-child-icon div br{
+        display: none;
+    }
+
+    .multi-box .fs-18{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .lead-management-wrapper .bck-img-lm {
+        background-image: none;
+        height: unset;
+    }
+
+    .lead-management-wrapper .max-w-500px{
+        max-width: unset;
+    }
+
+    .lead-management-wrapper .number-grid div:first-child .num-uls:before,
+    .lead-management-wrapper .number-grid div:nth-child(2) .num-uls:before,
+    .lead-management-wrapper .number-grid div:nth-child(3) .num-uls:before{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .bhubaneswar-main-wrapper .cityname101px {
+        font-size: 72px;
+    }
+    .abt-crm-feature-grids {
+        max-width: 600px;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+    .gredients-boxes,
+    .surat-main-wrapper .gredients-boxes,
+    .surat-main-wrapper .white-square-boxes,
+    .patna-main-wrapper .gredients-boxes,
+    .ghaziabad-main-wrapper .gredients-boxes,
+    .ghaziabad-main-wrapper .square-box-grids .white-square-boxes,
+    .nagpur-main-wrapper .gredients-boxes,
+    .nagpur-main-wrapper .grids-auto-fits .white-square-boxes,
+    .agra-main-wrapper .gredients-boxes,
+    .agra-main-wrapper .white-square-boxes,
+    .kanpur-main-wrapper .white-square-boxes,
+    .mysuru-main-wrapper .white-square-boxes,
+    .kota-main-wrapper .box-color,
+    .howrah-main-wrapper .white-square-boxes,
+    .howrah-main-wrapper .box-color,
+    .ludhiana-main-wrapper .white-square-boxes,
+    .bhubaneswar-main-wrapper .white-square-boxes {
+        min-height: unset;
+    }
+    .box-color {
+        min-height: 490px;
+        width: 100%;
+    }
+    .colored-box-grids {
+        grid-template-columns: 1fr 1fr;
+        margin-top: 40px !important;
+    }
+    .box-color:not(:last-child) {
+        margin-bottom: 50px;
+    }
+    .white-square-boxes:hover.white-square-boxes::before,
+    .box-color::before {
+        display: none;
+    }
+    .white-square-boxes {
+        padding: 15px;
+    }
+    .white-square-boxes p {
+        padding-left: 45px;
+    }
+    .best-feat-kol-grids {
+        grid-template-columns: 1fr;
+        max-width: unset;
+        border: unset;
+        text-align: center;
+    }
+    .best-feat-kol-grids div:nth-child(2) {
+        padding-right: 0;
+    }
+    .best-feat-kol-grids img {
+        display: inline-block;
+    }
+    .kolkata-wrapper .right-left-grids {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .kolkata-wrapper .right-left-grids div:nth-child(2) {
+        text-align: center;
+    }
+    .choosing-grids {
+        grid-template-columns: 1fr 1fr;
+    }
+    .keywrd-based-banner-props .products-btn-ul {
+        margin-top: 0px;
+    }
+    .padd14084px {
+        padding: 60px 15px;
+    }
+    .slide-right-round-box {
+        border-radius: 12px;
+        max-width: 600px;
+        border: 4px solid #fff;
+    }
+    .slide-right-round-box .slide-grids .cust-icon-grid {
+        display: none;
+    }
+    .slide-right-round-box .slide-grids {
+        grid-template-columns: 1fr;
+    }
+    .glass-effect {
+        background-color: unset;
+    }
+    .what-is-crm-wrapper .right-left-grids {
+        grid-template-columns: 1fr;
+    }
+    .whatiscrm-scrum-last {
+        padding: 60px 15px;
+    }
+    .whatiscrm-scrum-three-grids {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+    .whatiscrm-scrum-three-grids .benf-div:first-child,
+    .whatiscrm-scrum-three-grids .benf-div:nth-child(2) {
+        border-right: unset;
+    }
+    .whatiscrm-scrum-three-grids .benf-div {
+        max-width: 400px;
+        margin: auto;
+    }
+    /* .whatiscrm-scrum-three-grids .benf-div {
+        box-shadow: 0 4px 0px 0px rgba(0, 0, 0, .15);
+    } */
+    .whatiscrm-scrum-four-grids-two {
+        max-width: 100%;
+    }
+    .whatiscrm-scrum-four-grids {
+        grid-template-columns: 1fr;
+    }
+    .what-is-crm-wrapper .email-marketin-last .box-scroll {
+        height: unset;
+    }
+    .whatiscrm-scrum-four-grids {
+        gap: 60px;
+    }
+    .feat-div-sc4 {
+        text-align: center;
+        max-width: 400px;
+        margin: auto;
+    }
+    .feat-div-sc4 img {
+        display: inline-block;
+    }
+    .tabs-grid {
+        grid-template-columns: 1fr;
+    }
+    .tabs-grid div:first-child {
+        overflow: auto;
+        width: 100%;
+    }
+    .whatiscrm-tabs .ui-tabs-nav li {
+        display: table-cell;
+        float: none !important;
+    }
+    .whatiscrm-scrum-nine .best-feat-kol-grids {
+        grid-template-columns: 1fr !important;
+    }
+    .whatiscrm-scrum-nine .best-feat-kol-grids div:nth-child(2) {
+        padding-left: unset;
+        border-left: unset;
+    }
+
+    .promotion-pages-wrapper .products-btn-ul{
+        margin-top: 30px !important;
+    }
+
+    .lead-management-banner .grids-auto-fits,
+    .crm-software-india-banner .grids-auto-fits{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .lead-management-banner .en-badges-grids,
+    .crm-software-india-banner .en-badges-grids{
+        grid-template-columns: repeat(4, 1fr);
+        margin-bottom: 40px;
+    }
+
+    .lead-management-wrapper .number-grid{
+        place-items: unset;
+        grid-template-columns: 1fr 1fr;
+        max-width: 600px;
+        margin: auto;
+    }
+
+    .lead-management-wrapper .lm-4th-sec .w-set {
+        width: unset;
+    }
+
+   .promotion-pages-wrapper .choosing-grids {
+        grid-template-columns: 1fr;
+    }
+
+    .sales-tracker-main-wrapper .feat-div-sc4{
+        max-width: 100%;
+    }
+
+    .sales-tracker-main-wrapper .email-marketin-last .box-scroll{
+        height: unset;
+    }
+
+    .sales-crm-main-wrapper .white-square-boxes{
+        padding: 30px;
+    }
+
+    .sales-crm-main-wrapper  .sales-crm-banner .grids-auto-fits{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .sales-crm-main-wrapper  .sales-crm-banner .en-badges-grids{
+        margin-bottom: 40px;
+    }
+
+    .case-study-two .grids-auto-fits, 
+    .case-study-one .grids-auto-fits{
+        grid-template-columns: 1fr;
+    }
+
+    .case-study-two .grids-auto-fits .img-order-2{
+        order: 2;
+    }
+
+    .el-grids{
+        gap: 40px;
+    }
+
+    .ind-3-grids{
+        grid-template-columns: 1fr;
+    }    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .abt-crm-feature-grids {
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: unset;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .bhubaneswar-main-wrapper .cityname101px {
+        font-size: 34px;
+    }
+    .kanpur-banner::before {
+        display: none;
+    }
+    .lucknow-main-wrapper .box-color,
+    .mysuru-main-wrapper .box-color {
+        min-height: unset;
+    }
+    .set-order-2 .grids-auto-fits:nth-child(2) div:nth-child(1) {
+        order: 2;
+    }
+    .options-section .fs-29,
+    .options-section .fs-18 {
+        text-align: center;
+    }
+    .glass-effect {
+        background-color: unset;
+        padding: unset;
+        max-width: unset;
+        border-radius: unset;
+        margin: unset;
+    }
+    .colored-box-grids {
+        grid-template-columns: 1fr;
+    }
+    .box-color,
+    .surat-main-wrapper .box-color {
+        min-height: unset;
+    }
+    .kolkata-banner,
+    .jaipur-banner,
+    .indore-banner,
+    .noida-banner,
+    .surat-banner,
+    .patna-banner,
+    .ghaziabad-banner,
+    .nagpur-banner,
+    .chandigarh-banner,
+    .lucknow-banner,
+    .agra-banner,
+    .coimbatore-banner,
+    .kanpur-banner,
+    .mysuru-banner {
+        background: #3a6186;
+        background: -webkit-linear-gradient(to right, #3a6186, #89253e);
+        background: linear-gradient(to right, #3a6186, #89253e);
+    }
+    .mobile-gredient-set {
+        background: #3a6186;
+        background: -webkit-linear-gradient(to right, #3a6186, #89253e);
+        background: linear-gradient(to right, #3a6186, #89253e);
+    }
+    .choosing-grids div .image-box {
+        min-height: unset;
+    }
+    .choosing-grids,
+    .square-box-grids {
+        grid-template-columns: 1fr;
+    }
+    .best-feat-kol-grids div:nth-child(2) {
+        padding: 20px;
+    }
+    .best-feat-kol-grids {
+        border: 1px solid #707070;
+    }
+    .green-tick-grids {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-boxes-grids {
+        grid-template-columns: 1fr;
+    }
+    .feature-boxes-grids div {
+        padding: 30px 20px 30px 30px;
+    }
+    .customer-logos-section {
+        grid-template-columns: 1fr 1fr;
+    }
+    .customer-logos-section div {
+        box-shadow: 0 4px 6.51px 0.49px rgba(0, 0, 0, 0.15) !important;
+    }
+    .right-left-grids {
+        grid-template-columns: 1fr;
+    }
+    .img-order-2 {
+        order: 2;
+    }
+    .city-name {
+        font-size: 52px !important;
+        line-height: 110px !important;
+    }
+    .cityname101px {
+        font-size: 52px;
+        line-height: 110px;
+    }
+    .two-block-grids,
+    .three-block-grids {
+        grid-template-columns: 1fr;
+    }
+    .products-btn-ul li {
+        display: block;
+    }
+    .products-btn-ul li:first-child {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .en-badges-grids {
+        grid-template-columns: 1fr 1fr;
+    }
+    .en-badges-grids div {
+        box-shadow: 0 4px 6.51px 0.49px rgba(0, 0, 0, .15);
+        padding: 10px;
+        text-align: center;
+        border-radius: 12px;
+    }
+    .en-badges-grids img {
+        display: inline-block;
+    }
+    .whatiscrm-tabs .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+        padding: 20px;
+    }
+    .whatiscrm-tabs .ui-tabs-anchor {
+        width: 300px;
+        height: 60px;
+        font-size: 14px;
+    }
+    .whatiscrm-tabs .ui-state-active a:link::before {
+        top: 24px;
+    }
+    .square_btn_class .common-btn-class,
+    .whatiscrm-scrum-eight .black-btn49px {
+        font-size: 18px;
+        width: 230px;
+        height: 64px;
+        line-height: 64px;
+    }
+    .feat-div-sc4 .fs-18 {
+        margin-right: 0;
+    }
+    .whatiscrm-scrum-two {
+        text-align: center;
+    }
+    .all-in-box-cmmn-props {
+        padding: 10px 10px 30px 10px;
+    }
+    .years-grids div:last-child {
+        padding: 0 0 0 10px;
+    }
+    .whatiscrm-scrum-nine .best-feat-kol-grids {
+        padding: 10px;
+        border-radius: 4px;
+    }
+
+    .lead-management-wrapper .number-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .lead-management-wrapper .number-grid div{
+        text-align: center;
+        box-shadow: 0 4px 6.51px 0.49px rgba(0, 0, 0, .15);
+        padding: 20px;
+    }
+
+    .lead-management-wrapper .num-uls li{
+        width: unset !important;
+        display: block;
+    }
+
+    .lead-management-banner .en-badges-grids,
+    .crm-software-india-banner .en-badges-grids {
+        grid-template-columns: repeat(2, 1fr);    
+    }
+
+    .lm-last-section .grids-auto-fits div:first-child{
+        text-align: center;
+    }
+
+  .sales-tracker-main-wrapper .right-left-grids{
+        text-align: center;
+    }
+
+    .sales-tracker-main-wrapper .application-icons img{
+        max-width: 152px !important;
+     }
+
+     .sales-crm-main-wrapper .gredients-boxes {
+        min-height: unset;
+     }
+
+     .sales-crm-main-wrapper .gredients-boxes .fs-18{
+        height: unset;
+        overflow: unset;
+     }
+
+     .b2b-main-wrapper .bck-color-wrapperf1f2f2{
+        text-align: center;
+     }
+}
+
+@media screen and (max-width: 425px) {
+    .whatiscrm-tabs .ui-state-active a:link::before {
+        display: none;
+    }
+    .whatiscrm-tabs .ui-tabs-anchor {
+        width: 230px;
+    }
+
+    .sales-tracker-main-wrapper .application-icons img{
+        max-width: 127px !important;
+     }
+}

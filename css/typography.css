@@ -1,0 +1,326 @@
+.max-container1366 {
+  max-width: 1366px;
+  margin: auto;
+}
+
+.max-container1020 {
+  max-width: 1020px;
+  margin: auto;
+}
+
+.max-container1280 {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.padd-90 {
+  padding: 90px 84px;
+}
+
+.helvetica49 {
+  font-size: 39px;
+  line-height: 48px;
+}
+
+.helvetica39 {
+  font-size: 39px;
+  line-height: 48px;
+}
+
+.helvetica29 {
+  font-size: 29px;
+  line-height: 38px;
+}
+
+.helvetica21 {
+  font-size: 21px;
+  line-height: 32px;
+}
+
+.helvetica24 {
+  font-size: 24px;
+  line-height: 42px;
+}
+
+.helvetica18 {
+  font-size: 18px;
+  line-height: 34px;
+}
+
+.helvetica14 {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.helvetica18,
+.helvetica24,
+.helvetica21,
+.helvetica29,
+.helvetica39,
+.helvetica49,
+.helvetica14 {
+  font-family: "Helvetica";
+}
+
+.heading49pxpoppins {
+  font-size: 49px;
+  line-height: 60px;
+  font-family: "PoppinsExtraBold", Sans-Serif;
+}
+
+.heading39pxpoppins {
+  font-size: 39px;
+  line-height: 60px;
+  font-family: "PoppinsExtraBold", Sans-Serif;
+}
+
+.text-color-131415 {
+  color: #131415;
+}
+
+.text-color-74788D {
+  color: #74788d;
+}
+
+.text-primary-color {
+  color: #d83f87;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.filter-greyscale {
+  filter: grayscale(1);
+}
+
+.background-color-F5F4F4 {
+  background-color: #f5f4f4;
+}
+
+.linear-gradient-background {
+  background: linear-gradient(90deg, #2a1b3d, #131415);
+}
+
+.font-weight-normal {
+  font-weight: normal;
+}
+
+.poppins-regular {
+  font-family: "PoppinsRegular";
+}
+
+.poppins-extra-bold {
+  font-family: "PoppinsExtraBold", Sans-Serif;
+}
+
+.fs-39 {
+  font-size: 39px;
+  line-height: 48px;
+}
+
+.fs-18 {
+  font-size: 18px;
+  line-height: 34px;
+}
+
+.fs-29 {
+  font-size: 29px;
+  line-height: 38px;
+}
+
+.fs-24{
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.fs-15 {
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.p-0{
+ padding: 0;
+}
+
+/* accordion typography */
+
+.accordion {
+  background-color: transparent;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  font-family: "PoppinsExtraBold", Sans-Serif;
+  font-size: 15px !important;
+  letter-spacing: 0 !important;
+  line-height: 26px !important;
+  position: relative;
+  color: #131415;
+  border: 1px solid #e0e5ec;
+  padding: 18px 20px 18px 20px;
+  margin-bottom: 20px;
+}
+
+.accordion .active,
+.accordion:hover {
+  background-color: #fbf9f9;
+}
+
+.accordion .active .panel {
+  transition: all 0.4s ease;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+button.accordion:after {
+  content: "\002B";
+  color: #8763ac;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+button.accordion.active:after {
+  content: "\2212";
+}
+
+.panel p {
+  font-size: 15px;
+  font-family: "Helvetica";
+  margin-bottom: 20px;
+  line-height: 34px;
+  color: #74788d;
+}
+
+.panel p:not(:first-child) {
+  margin-top: 20px;
+}
+
+.panel ol {
+  padding-left: 20px;
+}
+
+.panel ol li {
+  font-size: 15px;
+  font-family: "Helvetica";
+  margin-bottom: 20px;
+  color: #74788d;
+}
+
+/* media query starts */
+
+@media only screen and (max-width: 1024px) {
+  .padd-90 {
+    padding: 60px 30px;
+  }
+
+  .ma-top10mobile {
+    margin-top: 10px;
+  }
+
+  .ma-top20mobile {
+    margin-top: 20px;
+  }
+
+  .ma-top30mobile {
+    margin-top: 30px;
+  }
+
+  .ma-top40mobile {
+    margin-top: 40px;
+  }
+
+  .ma-top50mobile {
+    margin-top: 50px;
+  }
+
+  .ma-top60mobile {
+    margin-top: 60px;
+  }
+
+  .ma-bottom10mobile {
+    margin-bottom: 10px;
+  }
+
+  .ma-bottom20mobile {
+    margin-bottom: 20px;
+  }
+
+  .ma-bottom30mobile {
+    margin-bottom: 30px;
+  }
+
+  .ma-bottom40mobile {
+    margin-bottom: 40px;
+  }
+
+  .ma-bottom50mobile {
+    margin-bottom: 50px;
+  }
+
+  .ma-bottom60mobile {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .padd-90 {
+    padding: 60px 15px;
+  }
+
+  .helvetica29 {
+    font-size: 24px;
+  }
+
+  .helvetica39 {
+    font-size: 28px;
+    line-height: 42px;
+  }
+
+  .helvetica49 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .helvetica24 {
+    font-size: 20px;
+    line-height: 36px;
+  }
+
+  .heading49pxpoppins {
+    font-size: 28px;
+    line-height: 43px;
+  }
+
+  .heading39pxpoppins {
+    font-size: 24px;
+    line-height: 42px;
+  }
+
+  .fs-39 {
+    font-size: 28px;
+    line-height: 42px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  button.accordion:after {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+  }
+
+  .application-icons a img {
+    max-width: 100% !important;
+  }
+}

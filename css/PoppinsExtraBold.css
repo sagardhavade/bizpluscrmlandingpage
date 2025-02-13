@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'PoppinsExtraBold';
+    src: url('../fonts/PoppinsExtraBold.eot');
+    src: url('../fonts/PoppinsExtraBold.eot') format('embedded-opentype'), url('../fonts/PoppinsExtraBold.woff2') format('woff2'), url('../fonts/PoppinsExtraBold.woff') format('woff'), url('../fonts/PoppinsExtraBold.ttf') format('truetype'), url('../images/PoppinsExtraBold.svg#PoppinsExtraBold') format('svg');
+}
