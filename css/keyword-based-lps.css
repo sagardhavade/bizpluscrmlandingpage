@@ -141,6 +141,7 @@
 .grids-auto-fits {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin-bottom: 20px;
 }
 
 .row-2 {
@@ -1330,7 +1331,7 @@
 .lead-management-banner h1 span,
 .crm-software-india-banner h1 span{
     font-size: 29px;
-    display: block;
+    display: block; 
 }
 
 .lead-management-banner .en-badges-grids,
@@ -1627,7 +1628,7 @@ background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, F
 /* crm-software-main-wrapper */
 
 .crm-india-main-wrapper .crm-software-india-banner {
-    background: transparent linear-gradient(180deg, #9C27B0 0%, #673AB7 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #060606 0%, #673AB7 100%) 0% 0% no-repeat padding-box;
 }
 
 .ind-2-sec{
@@ -2448,3 +2449,83 @@ background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, F
         max-width: 127px !important;
      }
 }
+
+
+.features-list {
+    background-color: hsl(0, 0%, 100%); /* Light grey background */
+    color: #000; /* Black text */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 560px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.features-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.features-list ul li {
+    font-size: 16px;
+    padding: 1px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.features-list ul li:last-child {
+    border-bottom: none;
+}
+.features-list ul li::before {
+    content: "✔"; /* Checkmark symbol */
+    color: #ff7300; /* Gold for contrast */
+    font-weight: bold;
+    margin-right: 10px;
+}
+.features-list ul li p {
+    margin-left: 28px;
+}
+
+.testimonial-container {
+    max-width: 800px;
+    margin: auto;
+}
+.testimonial-container h2 {
+    justify-content: center;
+    text-align: center;
+}
+.testimonial-slider {
+    display: flex;
+    justify-content: center;
+
+}
+.testimonial {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(212, 9, 9, 0.1);
+}
+.testimonial p {
+    font-size: 20px;
+    font-style: italic;
+    text-align: center
+}
+.testimonial h4 {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #f77e0d;
+    text-align: center
+}
+
+.slick-dots {
+    text-align: center !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.stars {
+    color: #ffd900;
+    font-size: 25px;
+    margin-top: 5px;
+    text-align: center
+}
+

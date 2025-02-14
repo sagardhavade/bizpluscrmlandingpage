@@ -718,6 +718,7 @@ padding-left: 4% !important;
   max-width: 355px !important;
   margin: auto;
   padding: 20px !important;
+  margin-top: 20px;
 }
 .landing_page_form .contactSendBtnLoaderDiv {
   width: 100%;
