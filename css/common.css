@@ -1933,6 +1933,17 @@ input#inputShownLeaderboardContent1:checked ~ #myReadMore1 {
   background-color: #fff;
   text-align: left;
 }
+.signUpView_2 {
+  margin: 10% auto 0;
+  border-radius: 4px;
+  max-width: 520px;
+  padding: 30px 30px 0 30px;
+  background-color: #fff;
+  text-align: left;
+}
+
+
+
 .signUpTopView {
   float: right;
   display: inline-flex;
@@ -1971,6 +1982,7 @@ input#inputShownLeaderboardContent1:checked ~ #myReadMore1 {
 .signUpBottomView {
   display: inline-flex;
 }
+
 .signUpBottomView .signUpBtnArrow {
   border-radius: 4px;
   background-color: #0155ff;
@@ -3110,6 +3122,7 @@ figure.imgsSlider figure {
   }
   .signUpArrowBtnView {
     margin-left: 0px !important;
+    
   }
   .signUpView {
     margin-bottom: 60px;

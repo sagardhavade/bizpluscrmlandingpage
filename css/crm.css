@@ -720,6 +720,12 @@ padding-left: 4% !important;
   padding: 20px !important;
   margin-top: 20px;
 }
+.landing_page_form_2 .signUpView_2 {
+  max-width: 355px !important;
+  margin: auto;
+  padding: 20px !important;
+}
+
 .landing_page_form .contactSendBtnLoaderDiv {
   width: 100%;
 }
@@ -745,6 +751,13 @@ padding-left: 4% !important;
   padding-left: 20px;
   height: 38px;
 }
+.landing_page_form_2 .signUpView_2 .select input {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding-left: 20px;
+  height: 38px;
+}
+
 .landing_page_form .signUpView .select input:focus {
   border-color: #8763ac;
   border-width: 1.5px;

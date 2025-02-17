@@ -96,7 +96,7 @@
                                 style="max-width: 230px; margin-bottom: 40px;">
 
                             <h1 class="heading49pxpoppins text-white ma-bottom0">
-                                Easy and Affordable CRM in India 
+                                Easy & Affordable CRM in India
                                 <span class="poppins-regular">One Price, No Surprise!</span>
                             </h1>
 
@@ -108,38 +108,37 @@
                         <div>
                             <div class="landing_page_form">
                                 <div class="signUpView">
-                                    <h2 class="featureHeading text-left" style="margin-bottom: 20px;">Contact Us</h2>
-                                    <form role="form" id="signup-form" name="signup-form">
+                                    <h2 class="featureHeading text-Center" style="margin-bottom: 20px; ">Contact Us</h2>
+                                    <form role="form" action="api/curl.php" method="post" id="form1"
+                                        onsubmit="return validateForm()">
                                         <div class="form-view select">
-                                            <input type="text" name="first_name" id="first_name"
-                                                class="form-control contactUsInputField" placeholder="Name*"
-                                                required="">
-                                            <span id="errorFirstName" hidden="hidden" class="erroralert">Please enter
-                                                name</span>
+                                            <input type="text" name="name" id="name"
+                                                class="form-control contactUsInputField" placeholder="Name*" required>
+                                            <span id="errorFirstName" class="erroralert"
+                                                style="color:red; display:none;">Please enter your name</span>
                                         </div>
 
                                         <div class="form-view select">
-                                            <input type="text" name="your-email" id="email" value=""
-                                                class="form-control contactUsInputField" placeholder="Email*"
-                                                onblur="onEmailBlur(this.value)" required="">
-                                            <div class="label"> </div>
-                                            <span id="errorEmailId" hidden="hidden" class="erroralert">Please enter a
-                                                valid email address</span>
+                                            <input type="text" name="email" id="email"
+                                                class="form-control contactUsInputField" placeholder="Email*" required>
+                                            <span id="errorEmailId" class="erroralert"
+                                                style="color:red; display:none;">Please enter a valid email
+                                                address</span>
                                         </div>
 
                                         <div class="form-view select">
-                                            <input type="text" name="phone" id="mobile-number" value="" maxlength="16"
-                                                class="form-control contactUsInputField" placeholder="Phone*"
-                                                required="">
-                                            <span id="errorPhoneNumber" hidden="hidden" class="erroralert">Please enter
-                                                a valid contact number</span>
+                                            <input type="text" name="phone" id="phone" maxlength="10"
+                                                class="form-control contactUsInputField" placeholder="Phone*" required>
+                                            <span id="errorPhoneNumber" class="erroralert"
+                                                style="color:red; display:none;">Please enter a valid 10-digit phone
+                                                number</span>
                                         </div>
 
                                         <div class="form-view select">
-                                            <input type="text" name="your-Industry" id="company_name"
+                                            <input type="text" name="requirement" id="requirement"
                                                 class="form-control contactUsInputField" placeholder="Company">
-                                            <span id="errorCompanyName" hidden="hidden" class="erroralert">Company
-                                                should not be empty</span>
+                                            <span id="errorCompanyName" class="erroralert"
+                                                style="color:red; display:none;">Company name should not be empty</span>
                                         </div>
 
                                         <input type="hidden" name="utm_source" value="">
@@ -147,20 +146,17 @@
                                         <input type="hidden" name="utm_campaign" value="">
                                         <input type="hidden" name="utm_term" value="">
                                         <input type="hidden" name="utm_content" value="">
-
                                         <input type="hidden" name="productId" value="2">
 
                                         <div class="clearfix"></div>
-                                        <div class="signUpBottomView" style="display: block;">
-
+                                        <div class="signUpBottomView">
                                             <div class="signUpArrowBtnView">
-                                                <button type="button" class="crm_Btn crm_blue_btn" id="formsubmitbtn"
-                                                    onclick="generateClientsLead()"
+                                                <button type="submit" class="crm_Btn crm_blue_btn" value="submit"
+                                                    id="formsubmitbtn"
                                                     style="padding: 8px 30px; margin-top:20px;width: 100%;border-radius:4px;">
                                                     Submit
                                                 </button>
                                             </div>
-
                                         </div>
                                     </form>
                                 </div>
@@ -171,6 +167,116 @@
             </div>
         </div>
     </div>
+
+    <script>
+        function validateForm() {
+            let isValid = true;
+
+            // Name validation
+            let name = document.getElementById("name").value.trim();
+            let nameError = document.getElementById("errorFirstName");
+            if (name === "") {
+                nameError.style.display = "block";
+                isValid = false;
+            } else {
+                nameError.style.display = "none";
+            }
+
+            // Email validation
+            let email = document.getElementById("email").value.trim();
+            let emailError = document.getElementById("errorEmailId");
+            let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (email === "" || !emailPattern.test(email)) {
+                emailError.style.display = "block";
+                isValid = false;
+            } else {
+                emailError.style.display = "none";
+            }
+
+            // Phone validation (10-digit number)
+            let phone = document.getElementById("phone").value.trim();
+            let phoneError = document.getElementById("errorPhoneNumber");
+            let phonePattern = /^[0-9]{10}$/;
+            if (phone === "" || !phonePattern.test(phone)) {
+                phoneError.style.display = "block";
+                isValid = false;
+            } else {
+                phoneError.style.display = "none";
+            }
+
+            // Company validation (optional but shouldn't be empty)
+            let company = document.getElementById("requirement").value.trim();
+            let companyError = document.getElementById("errorCompanyName");
+            if (company === "") {
+                companyError.style.display = "block";
+                isValid = false;
+            } else {
+                companyError.style.display = "none";
+            }
+
+            if (isValid) {
+                document.getElementById("formsubmitbtn").disabled = true;
+                document.getElementById("formsubmitbtn").innerText = "Submitting...";
+            }
+            // Prevent form submission if validation fails
+            return isValid;
+        }
+    </script>
+    <script>
+        function validateForm2() {
+            let isValid = true;
+    
+            // Name validation
+            let name = document.getElementById("name2").value.trim();
+            let nameError = document.getElementById("errorFirstName2");
+            if (name === "") {
+                nameError.style.display = "block";
+                isValid = false;
+            } else {
+                nameError.style.display = "none";
+            }
+    
+            // Email validation
+            let email = document.getElementById("email2").value.trim();
+            let emailError = document.getElementById("errorEmailId2");
+            let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (email === "" || !emailPattern.test(email)) {
+                emailError.style.display = "block";
+                isValid = false;
+            } else {
+                emailError.style.display = "none";
+            }
+    
+            // Phone validation (10-digit number)
+            let phone = document.getElementById("phone2").value.trim();
+            let phoneError = document.getElementById("errorPhoneNumber2");
+            let phonePattern = /^[0-9]{10}$/;
+            if (phone === "" || !phonePattern.test(phone)) {
+                phoneError.style.display = "block";
+                isValid = false;
+            } else {
+                phoneError.style.display = "none";
+            }
+    
+            // Company validation (optional but shouldn't be empty)
+            let company = document.getElementById("requirement2").value.trim();
+            let companyError = document.getElementById("errorCompanyName2");
+            if (company === "") {
+                companyError.style.display = "block";
+                isValid = false;
+            } else {
+                companyError.style.display = "none";
+            }
+    
+            if (isValid) {
+                document.getElementById("formsubmitbtn2").disabled = true;
+                document.getElementById("formsubmitbtn2").innerText = "Submitting...";
+            }
+            // Prevent form submission if validation fails
+            return isValid;
+        }
+    </script>
+
 
     <!-- Add Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -234,7 +340,7 @@
             gap: 20px;
             text-align: center;
             margin-top: 30px;
-            padding-bottom: 100px;
+            padding-bottom: 70px;
 
         }
 
@@ -350,15 +456,18 @@
                     <div class="ind-3-grid-boxes">
                         <h3 class="fs-24 poppins-extra-bold text-color-131415 ma-bottom10">Accounting</h3>
                         <ul class="poppins-regular fs-18 dark-text">
-                            <li>Handles Proforma Invoices, Tax Invoices, Purchase Orders, Sales Returns, Delivery Challans.</li>
-                            <li>Manages Cashbook, Expense Tracking, Stock Management, Barcode-Enabled Inventory Tracking.</li>
+                            <li>Handles Proforma Invoices, Tax Invoices, Purchase Orders, Sales Returns, Delivery
+                                Challans.</li>
+                            <li>Manages Cashbook, Expense Tracking, Stock Management, Barcode-Enabled Inventory
+                                Tracking.</li>
                         </ul>
                     </div>
 
                     <div class="ind-3-grid-boxes">
                         <h3 class="fs-24 poppins-extra-bold text-color-131415 ma-bottom10">Integrations</h3>
                         <ul class="poppins-regular fs-18 dark-text">
-                            <li>Integrate with Facebook, landing pages, IndiaMart, JustDial, WhatsApp, IVR, Chatbot & many more.</li>
+                            <li>Integrate with Facebook, landing pages, IndiaMart, JustDial, WhatsApp, IVR, Chatbot &
+                                many more.</li>
                             <li>Centralize lead data and enhance communication.</li>
                         </ul>
                     </div>
@@ -387,7 +496,7 @@
                             <li>Handle visits on the go with an intuitive interface.</li>
                         </ul>
                     </div>
-                    
+
                     <div class="ind-3-grid-boxes">
                         <h3 class="fs-24 poppins-extra-bold text-color-131415 ma-bottom10">Notifications</h3>
                         <ul class="poppins-regular fs-18 dark-text">
@@ -621,7 +730,9 @@
                 <div class="stars">★★★★☆</div>
             </div>
             <div class="testimonial">
-                <p>"We find BizPlus CRM to be incredibly user-friendly, allowing us to stay organized with minimal effort. It provides great value for money, helping us manage our customer interactions smoothly and efficiently. This tool has become an essential part of our daily operations."</p>
+                <p>"We find BizPlus CRM to be incredibly user-friendly, allowing us to stay organized with minimal
+                    effort. It provides great value for money, helping us manage our customer interactions smoothly and
+                    efficiently. This tool has become an essential part of our daily operations."</p>
                 <h4>- Five Petals</h4>
                 <div class="stars">★★★★★</div>
             </div>
@@ -832,7 +943,7 @@
     </div> -->
 
 
-    
+
 
 
     <div class="ind-3-sec">
@@ -848,69 +959,50 @@
                         <Strong>Email: </Strong> support@bizpluscrm.com
                     </div>
                     <div>
-                        <div class="landing_page_form">
-                            <div class="signUpView">
-                                <h2 class="featureHeading text-left" style="margin-bottom: 20px;">Contact Us</h2>
-                                <form role="form" id="signup-form" name="signup-form">
-                                    <div class="form-view select">
-                                        <input type="text" name="first_name" id="first_name"
-                                            class="form-control contactUsInputField" placeholder="Name*" required="">
-                                        <span id="errorFirstName" hidden="hidden" class="erroralert">Please enter
-                                            name</span>
+                        <div class="landing_page_form_2">
+                            <div class="signUpView_2">
+                                <h2 class="featureHeading text-Center" style="margin-bottom: 20px;">Contact Us</h2>
+                                <form role="form" action="api/curl.php" method="post" id="form2" onsubmit="return validateForm2()">
+                                    <div class="form-view-2 select">
+                                        <input type="text" name="name" id="name2" class="form-control contactUsInputField_2" placeholder="Name*" required>
+                                        <span id="errorFirstName2" class="erroralert" style="color:red; display:none;">Please enter your name</span>
                                     </div>
-
-                                    <div class="form-view select">
-                                        <input type="text" name="your-email" id="email" value=""
-                                            class="form-control contactUsInputField" placeholder="Email*"
-                                            onblur="onEmailBlur(this.value)" required="">
-                                        <div class="label"> </div>
-                                        <span id="errorEmailId" hidden="hidden" class="erroralert">Please enter a valid
-                                            email address</span>
+                                    <div class="form-view-2 select">
+                                        <input type="text" name="email" id="email2" class="form-control contactUsInputField_2" placeholder="Email*" required>
+                                        <span id="errorEmailId2" class="erroralert" style="color:red; display:none;">Please enter a valid email address</span>
                                     </div>
-
-                                    <div class="form-view select">
-                                        <input type="text" name="phone" id="mobile-number" value="" maxlength="16"
-                                            class="form-control contactUsInputField" placeholder="Phone*" required="">
-                                        <span id="errorPhoneNumber" hidden="hidden" class="erroralert">Please enter a
-                                            valid contact number</span>
+                                    <div class="form-view-2 select">
+                                        <input type="text" name="phone" id="phone2" maxlength="10" class="form-control contactUsInputField_2" placeholder="Phone*" required>
+                                        <span id="errorPhoneNumber2" class="erroralert" style="color:red; display:none;">Please enter a valid 10-digit phone number</span>
                                     </div>
-
-                                    <div class="form-view select">
-                                        <input type="text" name="your-Industry" id="company_name"
-                                            class="form-control contactUsInputField" placeholder="Company">
-                                        <span id="errorCompanyName" hidden="hidden" class="erroralert">Company should
-                                            not be empty</span>
+                                    <div class="form-view-2 select">
+                                        <input type="text" name="requirement" id="requirement2" class="form-control contactUsInputField_2" placeholder="Company">
+                                        <span id="errorCompanyName2" class="erroralert" style="color:red; display:none;">Company name should not be empty</span>
                                     </div>
-
                                     <input type="hidden" name="utm_source" value="">
                                     <input type="hidden" name="utm_medium" value="">
                                     <input type="hidden" name="utm_campaign" value="">
                                     <input type="hidden" name="utm_term" value="">
                                     <input type="hidden" name="utm_content" value="">
-
                                     <input type="hidden" name="productId" value="2">
-
                                     <div class="clearfix"></div>
-                                    <div class="signUpBottomView" style="display: block;">
-
-                                        <div class="signUpArrowBtnView">
-                                            <button type="button" class="crm_Btn crm_blue_btn" id="formsubmitbtn"
-                                                onclick="generateClientsLead()"
-                                                style="padding: 8px 30px; margin-top:20px;width: 100%;border-radius:4px;">
+                                    <div class="signUpBottomView_2">
+                                        <div class="signUpArrowBtnView_2">
+                                            <button type="submit" class="crm_Btn crm_blue_btn" value="submit" id="formsubmitbtn2" style="padding: 8px 30px; margin-top:20px;width: 100%;border-radius:4px;">
                                                 Submit
                                             </button>
                                         </div>
-
                                     </div>
                                 </form>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
