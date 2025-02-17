@@ -108,7 +108,8 @@
                         <div>
                             <div class="landing_page_form">
                                 <div class="signUpView">
-                                    <h2 class="featureHeading text-Center" style="margin-bottom: 20px; ">Contact Us</h2>
+                                    <h2 class="poppins-regular text-center" style="margin-bottom: 20px; ">Contact Us
+                                    </h2>
                                     <form role="form" action="api/curl.php" method="post" id="form1"
                                         onsubmit="return validateForm()">
                                         <div class="form-view select">
@@ -136,9 +137,18 @@
 
                                         <div class="form-view select">
                                             <input type="text" name="requirement" id="requirement"
-                                                class="form-control contactUsInputField" placeholder="Company">
+                                                class="form-control contactUsInputField" placeholder="Company Name*">
                                             <span id="errorCompanyName" class="erroralert"
                                                 style="color:red; display:none;">Company name should not be empty</span>
+                                        </div>
+
+                                        <div class="form-view select">
+                                            <input type="number" name="address" id="address"
+                                                class="form-control contactUsInputField" placeholder="No of Users Required*"
+                                                min="1">
+                                            <span id="errorAddress" class="erroralert" style="color:red; display:none;">
+                                                Please enter a valid number of users.
+                                            </span>
                                         </div>
 
                                         <input type="hidden" name="utm_source" value="">
@@ -214,6 +224,17 @@
                 companyError.style.display = "none";
             }
 
+            let address = document.getElementById("address").value.trim();
+            let addressError = document.getElementById("errorAddress");
+
+            if (address === "" || parseInt(address) < 1) {
+                addressError.style.display = "block";
+                addressError.innerText = "Please enter a valid number of users (1 or more).";
+                isValid = false;
+            } else {
+                addressError.style.display = "none";
+            }
+
             if (isValid) {
                 document.getElementById("formsubmitbtn").disabled = true;
                 document.getElementById("formsubmitbtn").innerText = "Submitting...";
@@ -225,7 +246,7 @@
     <script>
         function validateForm2() {
             let isValid = true;
-    
+
             // Name validation
             let name = document.getElementById("name2").value.trim();
             let nameError = document.getElementById("errorFirstName2");
@@ -235,7 +256,7 @@
             } else {
                 nameError.style.display = "none";
             }
-    
+
             // Email validation
             let email = document.getElementById("email2").value.trim();
             let emailError = document.getElementById("errorEmailId2");
@@ -246,7 +267,7 @@
             } else {
                 emailError.style.display = "none";
             }
-    
+
             // Phone validation (10-digit number)
             let phone = document.getElementById("phone2").value.trim();
             let phoneError = document.getElementById("errorPhoneNumber2");
@@ -257,7 +278,7 @@
             } else {
                 phoneError.style.display = "none";
             }
-    
+
             // Company validation (optional but shouldn't be empty)
             let company = document.getElementById("requirement2").value.trim();
             let companyError = document.getElementById("errorCompanyName2");
@@ -267,7 +288,19 @@
             } else {
                 companyError.style.display = "none";
             }
-    
+
+            let address = document.getElementById("address2").value.trim();
+            let addressError = document.getElementById("errorAddress2");
+
+            if (address === "" || parseInt(address) < 1) {
+                addressError.style.display = "block";
+                addressError.innerText = "Please enter a valid number of users (1 or more).";
+                isValid = false;
+            } else {
+                addressError.style.display = "none";
+            }
+
+
             if (isValid) {
                 document.getElementById("formsubmitbtn2").disabled = true;
                 document.getElementById("formsubmitbtn2").innerText = "Submitting...";
@@ -284,10 +317,10 @@
     <div class="ind-2-sec">
         <div class="max-container1280">
             <div class="padd-90">
-                <p class="text-white poppins-extra-bold text-center fs-39 ma-bottom40">
+                <p class="text-white heading49pxpoppins text-center fs-39 ma-bottom40">
                     Tired of juggling multiple tools to manage your business?
                 </p>
-                <p class="fs-24 poppins-extra-bold text-white ma-bottom10">
+                <p class="fs-24 poppins-regular text-white text-center ma-bottom10">
                     BizPlus CRM brings everything under one roof, providing a seamless, integrated experience to
                     streamline your workflow.
                 </p>
@@ -961,24 +994,45 @@
                     <div>
                         <div class="landing_page_form_2">
                             <div class="signUpView_2">
-                                <h2 class="featureHeading text-Center" style="margin-bottom: 20px;">Contact Us</h2>
-                                <form role="form" action="api/curl.php" method="post" id="form2" onsubmit="return validateForm2()">
+                                <h2 class="poppins-regular text-center" style="margin-bottom: 20px;">Contact Us</h2>
+                                <form role="form" action="api/curl.php" method="post" id="form2"
+                                    onsubmit="return validateForm2()">
                                     <div class="form-view-2 select">
-                                        <input type="text" name="name" id="name2" class="form-control contactUsInputField_2" placeholder="Name*" required>
-                                        <span id="errorFirstName2" class="erroralert" style="color:red; display:none;">Please enter your name</span>
+                                        <input type="text" name="name" id="name2"
+                                            class="form-control contactUsInputField_2" placeholder="Name*" required>
+                                        <span id="errorFirstName2" class="erroralert"
+                                            style="color:red; display:none;">Please enter your name</span>
                                     </div>
                                     <div class="form-view-2 select">
-                                        <input type="text" name="email" id="email2" class="form-control contactUsInputField_2" placeholder="Email*" required>
-                                        <span id="errorEmailId2" class="erroralert" style="color:red; display:none;">Please enter a valid email address</span>
+                                        <input type="text" name="email" id="email2"
+                                            class="form-control contactUsInputField_2" placeholder="Email*" required>
+                                        <span id="errorEmailId2" class="erroralert"
+                                            style="color:red; display:none;">Please enter a valid email address</span>
                                     </div>
                                     <div class="form-view-2 select">
-                                        <input type="text" name="phone" id="phone2" maxlength="10" class="form-control contactUsInputField_2" placeholder="Phone*" required>
-                                        <span id="errorPhoneNumber2" class="erroralert" style="color:red; display:none;">Please enter a valid 10-digit phone number</span>
+                                        <input type="text" name="phone" id="phone2" maxlength="10"
+                                            class="form-control contactUsInputField_2" placeholder="Phone*" required>
+                                        <span id="errorPhoneNumber2" class="erroralert"
+                                            style="color:red; display:none;">Please enter a valid 10-digit phone
+                                            number</span>
                                     </div>
                                     <div class="form-view-2 select">
-                                        <input type="text" name="requirement" id="requirement2" class="form-control contactUsInputField_2" placeholder="Company">
-                                        <span id="errorCompanyName2" class="erroralert" style="color:red; display:none;">Company name should not be empty</span>
+                                        <input type="text" name="requirement" id="requirement2"
+                                            class="form-control contactUsInputField_2" placeholder="Company Name*">
+                                        <span id="errorCompanyName2" class="erroralert"
+                                            style="color:red; display:none;">Company name should not be empty</span>
                                     </div>
+                                    <div class="form-view select">
+                                        <input type="number" name="address" id="address2"
+                                            class="form-control contactUsInputField_2" placeholder="No of Users Required*"
+                                            min="1">
+                                        <span id="errorAddress2" class="erroralert" style="color:red; display:none;">
+                                            Please enter a valid number of users.
+                                        </span>
+                                    </div>
+
+
+
                                     <input type="hidden" name="utm_source" value="">
                                     <input type="hidden" name="utm_medium" value="">
                                     <input type="hidden" name="utm_campaign" value="">
@@ -988,7 +1042,9 @@
                                     <div class="clearfix"></div>
                                     <div class="signUpBottomView_2">
                                         <div class="signUpArrowBtnView_2">
-                                            <button type="submit" class="crm_Btn crm_blue_btn" value="submit" id="formsubmitbtn2" style="padding: 8px 30px; margin-top:20px;width: 100%;border-radius:4px;">
+                                            <button type="submit" class="crm_Btn crm_blue_btn" value="submit"
+                                                id="formsubmitbtn2"
+                                                style="padding: 8px 30px; margin-top:20px;width: 100%;border-radius:4px;">
                                                 Submit
                                             </button>
                                         </div>
